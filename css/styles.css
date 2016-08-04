@@ -413,3 +413,39 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* line 4, ../scss/styles.scss */
+body {
+  background: #eee;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 9, ../scss/styles.scss */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+/* line 14, ../scss/styles.scss */
+aside ui {
+  padding: 0;
+}
+/* line 16, ../scss/styles.scss */
+aside ui li {
+  list-style: none;
+  margin: 0;
+}
+/* line 19, ../scss/styles.scss */
+aside ui li a {
+  display: block;
+  padding: 10px 5%;
+  border-bottom: solid 1px #95a5a6;
+}
