@@ -1,27 +1,20 @@
 @import "normalize";
 @import "susy";
 
-body {
-	background: #eee;
-	@include container(60em);
+$susy: (
+  container: 70em,
+  columns: 12,
+  gutters: 1/6
+);
+
+.main {
+  @include container;
 }
 
-main {
-	border: 1px solid red;
-	h1 {
-		color: red;
-	}
-	p {
-		color: blue;
-	}
+.content {
+  @include span(8 of 12 first);
 }
 
-aside {
-	border: 1px solid blue;
-	h1 {
-		color: green;
-	}
-	p {
-		color: orange;
-	}
+.sidebar {
+  @include span(4 of 12 last);
 }

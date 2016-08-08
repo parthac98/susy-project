@@ -414,34 +414,29 @@ table {
   border-spacing: 0;
 }
 
-/* line 4, ../scss/styles.scss */
-body {
-  background: #eee;
-  max-width: 60em;
+/* line 10, ../scss/styles.scss */
+.main {
+  max-width: 70em;
   margin-left: auto;
   margin-right: auto;
 }
 /* line 12, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
-body:after {
+.main:after {
   content: " ";
   display: block;
   clear: both;
 }
 
-/* line 10, ../scss/styles.scss */
-main h1 {
-  color: red;
-}
-/* line 13, ../scss/styles.scss */
-main p {
-  color: blue;
+/* line 14, ../scss/styles.scss */
+.content {
+  width: 66.26506%;
+  float: left;
+  margin-right: 1.20482%;
 }
 
-/* line 19, ../scss/styles.scss */
-aside h1 {
-  color: green;
-}
-/* line 22, ../scss/styles.scss */
-aside p {
-  color: orange;
+/* line 18, ../scss/styles.scss */
+.sidebar {
+  width: 32.53012%;
+  float: right;
+  margin-right: 0;
 }
