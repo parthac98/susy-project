@@ -6,20 +6,22 @@ body {
 	@include container(60em);
 }
 
-a {
-	color: #2980b9;
-	text-decoration: none;
+main {
+	border: 1px solid red;
+	h1 {
+		color: red;
+	}
+	p {
+		color: blue;
+	}
 }
 
-aside ui{
-	padding: 0;
-	li {
-		list-style: none;
-		margin: 0;
-		a {
-			display: block;
-			padding: 10px 5%;
-			border-bottom: solid 1px #95a5a6; 
-		}
+aside {
+	border: 1px solid blue;
+	h1 {
+		color: green;
+	}
+	p {
+		color: orange;
 	}
 }
